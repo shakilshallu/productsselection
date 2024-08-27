@@ -1,0 +1,126 @@
+*{
+    padding:0px ;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.selection-container {
+    height: 100vh;
+width: 25%;
+border: 1px solid black;
+    padding-left: 2rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(120, 123, 124, 0.9);
+    position: relative;
+}
+
+button {
+    border-radius: 5px;
+}
+.colors-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.colors-container button {
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-top: 80px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: start;
+}
+
+.colors-heading{
+}
+
+.sizes {
+    width: 19rem;
+    height: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.sizes button {
+    width: 2rem;
+    height: 1.5rem;
+    background-color: rgb(111, 102, 123);
+    border: none;
+    outline: none;
+}
+
+.sizes-container {
+    padding: 1rem;
+    margin-top: 2.5rem;
+
+}
+.offer-container {
+    width: 20rem;
+    height: 4rem;
+    /* text-align: center; */
+}
+
+.offer-container h2 {
+    margin-bottom: 1rem;
+}
+
+.offer-container button {
+    height: 2rem;
+    border: none;
+    outline: none;
+    background-color: rgb(148, 231, 231);
+    padding: 0px 5px;
+}
+
+
+.amount-container {
+    width: 19rem;
+    height: 4rem;
+    /* text-align: center; */
+    margin-top: 2.5rem;
+}
+
+.amount-container h2 {
+    margin-bottom: 1rem;
+}
+
+.amount-container h3 {
+    margin-top: 1rem;
+    font-weight: 900;
+}
+
+.filter-btn {
+    width: 80%;
+    height: 2rem;
+    margin-top: 3rem;
+    border: none;
+    background-color: rgb(191, 192, 205);
+    color: white;
+}
+
+
+.filter-container{
+    height: 100vh;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    gap: 10px;position: absolute;
+    left: 350px;
+}

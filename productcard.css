@@ -1,0 +1,11 @@
+.main-container{
+    border: 2px solid black;
+    display: flex;
+
+    background-color: rgb(145, 206, 121);
+    border-radius: 5px;
+    padding: 10px;
+
+   
+    width: 300px;
+}
